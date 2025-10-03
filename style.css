@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00adb5;
+}
+
+section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(120deg, #00adb5, #393e46);
+  color: #fff;
+  padding: 150px 20px;
+}
+
+.highlight {
+  color: #ffcc00;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list li {
+  background: #eee;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.project-card {
+  background: #f7f7f7;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 400px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 10px;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  background: #00adb5;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #007b83;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
